@@ -9,4 +9,11 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+	<allow-intent href="*" />
+	<allow-navigation href="http://*/*" />
+	<allow-navigation href="https://*/*" />
+	<allow-navigation href="data:*" />
+	
+	<plugin name="com.paypal.cordova.mobilesdk" spec="3.1.2" source="pgb" />
+	
 </widget>

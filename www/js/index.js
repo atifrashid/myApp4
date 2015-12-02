@@ -66,6 +66,7 @@ var app = {
   },
   onSuccesfulPayment: function(payment) {
     console.log("payment success: " + JSON.stringify(payment, null, 4));
+	 alert("payment success: " + JSON.stringify(payment, null, 4));
   },
   onAuthorizationCallback: function(authorization) {
     console.log("authorization: " + JSON.stringify(authorization, null, 4));
